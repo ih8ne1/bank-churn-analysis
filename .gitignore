@@ -1,0 +1,63 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ── Virtual environments ─────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data & models (никогда не коммитим!) ─────────────────
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.xlsx
+data/raw/
+data/processed/
+*.pkl
+*.joblib
+*.h5
+models/
+mlruns/
+mlflow/
+
+# ── Secrets ──────────────────────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+config/secrets.yaml
+
+# ── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Build/test artifacts ─────────────────────────────────
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# ── Misc ─────────────────────────────────────────────────
+.tmp/
+tmp/
+scratch/
+*.bak
