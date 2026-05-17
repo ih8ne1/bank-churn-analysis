@@ -115,4 +115,3 @@ jupyter notebook notebooks/churn_analysis.ipynb
 **Data:** PostgreSQL, SQLAlchemy
 
 **Виз:** matplotlib, seaborn
-- Uplift-моделирование (`scikit-uplift`) — оценка эффекта для каждого пользователя
