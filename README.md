@@ -115,10 +115,4 @@ jupyter notebook notebooks/churn_analysis.ipynb
 **Data:** PostgreSQL, SQLAlchemy
 
 **Виз:** matplotlib, seaborn
-
-## Что бы я добавил дальше
-
-- FastAPI-обёртка для модели + Docker для деплоя
-- MLflow для трекинга экспериментов
-- Двойной DiD или synthetic control для усиления каузального вывода
 - Uplift-моделирование (`scikit-uplift`) — оценка эффекта для каждого пользователя
